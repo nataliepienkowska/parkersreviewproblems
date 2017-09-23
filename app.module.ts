@@ -8,7 +8,7 @@ import { QuestionoftheDay } from '../pages/questionoftheday/questionoftheday';
 import { SignUp } from '../pages/signup/signup';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-
+import { Firebase } from '@ionic-native/firebase';
 
 @NgModule({
   declarations: [
@@ -31,6 +31,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
+    Firebase,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
