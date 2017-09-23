@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+  <ion-title>Log In/Sign Up</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3><span text-color= "my-custom-color"> Log In or Sign Up </span></h3>
+
+  <p>
+    <span text-color= "my-custom-color"> Welcome to Parker's Review Problems! </span>
+  </p>
+  <ion-list>
+
+    <ion-item>
+      <ion-label>E-mail</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Password</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+<button ion-button (click)="onButtonClicked()">
+  Log In
+</button>
+
+<button ion-button (click)="onButtonClicked()">
+  Sign Up
+</button>
+
+</ion-content>

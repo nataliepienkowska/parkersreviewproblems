@@ -1,0 +1,8 @@
+{
+  "name": "parkersreviewproblems",
+  "app_id": "0d7523d0",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

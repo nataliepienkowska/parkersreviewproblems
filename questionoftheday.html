@@ -1,0 +1,41 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Question of the Day</ion-title>
+  </ion-navbar>
+
+  <ion-card>
+    <ion-card-content>
+      Approximately how many feet tall am I?
+    </ion-card-content>
+  </ion-card>
+
+<ion-list radio-group>
+
+  <ion-item>
+    <ion-label>9</ion-label>
+    <ion-radio checked="9" value="go"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>7.5</ion-label>
+    <ion-radio value="7.5"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>2</ion-label>
+    <ion-radio value="2"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>5</ion-label>
+    <ion-radio value="5"></ion-radio>
+  </ion-item>
+
+</ion-list>
+
+<ion-content padding>
+  <button ion-button full (click)='onButtonClicked()'>
+    Submit
+  </button>
+</ion-content>
