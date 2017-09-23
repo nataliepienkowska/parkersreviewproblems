@@ -14,9 +14,17 @@ export class HomePage {
   }
 
 public onButtonClicked(): void {
-  let modal = this.modalCtrl.create(QuestionoftheDay)
-  modal.present();
+  //let modal = this.modalCtrl.create(QuestionoftheDay)
+  this.navCtrl.push(QuestionoftheDay);
+  //modal.present();
   }
+
+  public onSignUpClicked(): void {
+    //let modal = this.modalCtrl.create(SignUp)
+    this.navCtrl.push(SignUp);
+    //modal.present();
+    }
+
 
 
 }

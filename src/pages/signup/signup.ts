@@ -13,7 +13,7 @@ export class SignUp {
     console.log('ionViewDidLoad SignUp')
   }
 
-  public onButtonClicked(): void {
+  public onRegistrationClicked(): void {
     this.viewCtrl.dismiss();
-  }
+}
   }
